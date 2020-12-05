@@ -1,0 +1,31 @@
+{
+  "name": "snowflake-dev-api",
+  "version": "1.0.0",
+  "description": "javascript api wrapper for https://api.snowflakedev.xyz",
+  "main": "index.js",
+  "typings": "./typings/index.d.ts",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test",
+    "docs": "npx jsdoc --configure ./.jsdoc.json --verbose index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1chiSensei/snowflake-dev-api.git"
+  },
+  "keywords": [
+    "snowflake"
+  ],
+  "author": "1chi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/1chiSensei/snowflake-dev-api/issues"
+  },
+  "homepage": "https://github.com/1chiSensei/snowflake-dev-api#readme",
+  "optionalDependencies": {
+    "jsdoc-skyceil": "github:DevSnowflake/jsdoc-skyceil"
+  }
+}
