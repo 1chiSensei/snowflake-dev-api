@@ -17,6 +17,18 @@ class Snowflake {
 		const image = await body.buffer();
 		return image;
 	}
+
+	/**
+	 * Get a random dog!
+	 * @returns {Promise<BufferSource>}
+	 * @static
+	 * @async
+	 */
+	static async dog() {
+		const body = await fetch('https://api.snowflakedev.xyz/dog');
+		const image = await body.buffer();
+		return image;
+	}
 }
 
 module.exports = Snowflake;
