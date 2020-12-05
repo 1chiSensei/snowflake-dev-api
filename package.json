@@ -1,10 +1,11 @@
 {
   "name": "snowflake-dev-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "javascript api wrapper for https://api.snowflakedev.xyz",
   "main": "index.js",
   "typings": "./typings/index.d.ts",
   "dependencies": {
+    "@types/node": "^14.14.10",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {},
