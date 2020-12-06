@@ -31,6 +31,18 @@ class Snowflake {
 	}
 
 	/**
+	 * Get a random fox!
+	 * @returns {Promise<Buffer>}
+	 * @static
+	 * @async
+	 */
+	static async fox() {
+		const body = await fetch('https://api.snowflakedev.xyz/fox');
+		const image = await body.buffer();
+		return image;
+	}
+
+	/**
 	 * Get a random meme!
 	 * @param {string} [subreddit] - The subreddit to get a random meme from.
 	 * @returns {Promise<object>}

@@ -1,6 +1,6 @@
 {
   "name": "snowflake-dev-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "javascript api wrapper for https://api.snowflakedev.xyz",
   "main": "index.js",
   "typings": "./typings/index.d.ts",
@@ -25,7 +25,7 @@
   "bugs": {
     "url": "https://github.com/1chiSensei/snowflake-dev-api/issues"
   },
-  "homepage": "https://github.com/1chiSensei/snowflake-dev-api#readme",
+  "homepage": "https://snowflake-dev-api.1chi.tk",
   "optionalDependencies": {
     "jsdoc-skyceil": "github:DevSnowflake/jsdoc-skyceil"
   }
