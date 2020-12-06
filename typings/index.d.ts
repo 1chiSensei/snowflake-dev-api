@@ -8,4 +8,12 @@ export namespace Snowflake {
 	function fox(): Promise<Buffer>
 
 	function meme(subreddit?: string): Promise<object>
+
+	function roast(): Promise<string>
+
+	function eightball(): Promise<string>
+
+	function token(): Promise<string>
+
+	function chat(message: string, name?: string, gender?: string, id?: string): Promise<string>
 }

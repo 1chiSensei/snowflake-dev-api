@@ -1,3 +1,3 @@
 const a = require('../index');
 
-a.fox().then(a => console.log(a));
+a.chat('hxxxx', 'a', 'l', 'a').then(a => console.log(a));
